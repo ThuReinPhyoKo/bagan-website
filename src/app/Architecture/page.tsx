@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link"
+
 import { AutoShow } from "@/Animation/animation";
 import Modal from "@/components/modal";
 import { useState } from "react";

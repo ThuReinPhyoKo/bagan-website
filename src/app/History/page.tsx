@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { AutoShow } from "@/Animation/animation"
 
 export default function History() {

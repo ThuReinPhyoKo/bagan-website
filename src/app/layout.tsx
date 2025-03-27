@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Almendra_SC, Funnel_Display, Lexend_Giga, Poppins, Roboto_Condensed, Zain } from "next/font/google";
+import { Almendra_SC, Roboto_Condensed, Zain } from "next/font/google";
 import "./globals.css";
 import Nav from '@/components/Navbar'
 import Footer from "./components/Footer";

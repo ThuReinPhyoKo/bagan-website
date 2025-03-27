@@ -5,7 +5,6 @@ import Temple from "./components/archi";
 import CultureSection from "./components/culture";
 import Gallery from "./components/gallery";
 import Map from "./components/map";
-import Link from 'next/link'
 
 export default function Home() {
   return (
