@@ -34,7 +34,7 @@ export default function Footer () {
                     </div>
                     <div id="social-platforms" className="flex flex-col justify-around items-center">
                         <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Let's connect . . .</h3>
-                        <p className="w-3/4 p-2 text-lg md:text-xl text-center">I’m always open to new connections, collaborations, and projects. Reach out to me through any of the platforms below!</p>
+                        <p className="w-3/4 p-2 text-lg md:text-xl text-center">I'm always open to new connections, collaborations, and projects. Reach out to me through any of the platforms below!</p>
                         <div className="flex gap-6 mb-3">
                             <a href="https://www.linkedin.com/in/thurein-phyoko-ryandev/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="/assets/svg/linkedin-svgrepo-com.svg" alt="LinkedIn" className="w-9 h-9 transition duration-75 ease-in-out hover:scale-125" /></a>
                             <a href="https://github.com/ThuReinPhyoKo" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="/assets/svg/github-color-svgrepo-com.svg" alt="GitHub" className="w-9 h-9 transition duration-75 ease-in-out hover:scale-125"/></a>

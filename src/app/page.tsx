@@ -14,7 +14,7 @@ export default function Home() {
         <section className="hero-section relative w-screen min-h-screen overflow-hidden">
           <div className="hero-bg relative w-full min-h-screen">
             <Image width={224} height={112} objectFit="cover" alt="ballon" src="/assets/background/ballon.png" className="b1 absolute top-5 left-0 z-40" />
-            <img src="/assets/background/ballon.png" className="b2 w-40 absolute z-40" />
+            <img src="/assets/background/ballon.png" alt="ballon" className="b2 w-40 absolute z-40" />
             <Image layout="fill" objectFit="cover" alt="background" src='/assets/background/bg-5.jpg' className="hero-bg" />
             <h1 className="font-roboto text-5xl lg:text-9xl md:text-8xl sm:text-7xl font-bold absolute left-1/2 top-1/4 z-20 text-white">BAGAN</h1>
           </div>
@@ -29,15 +29,15 @@ export default function Home() {
           <AnimateFromBottom>
             <div className="facts w-full grid grid-cols-1 sm:grid-cols-3 gap-3 absolute left-0 bottom-0 z-40 p-2">
               <div className="hero-fact1 flex items-center justify-center">
-                <img src="/assets/png/unesco.png" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto"/>
+                <img src="/assets/png/unesco.png" alt="UNESCO" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto"/>
                 <p className="text-white font-sans text-xs px-1">Bagan is a sacred landscape, featuring an exceptional range of Buddhist art and architecture. <a href="https://whc.unesco.org/en/list/1588/" target="_blank" rel="noopener noreferrer" className="see-more-btn text-blue-600">see more</a></p>
               </div>
               <div className="hero-fact2 flex items-center justify-center">
-                <img src="/assets/png/pagoda.png" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto" />
-                <p className="text-white font-sans text-xs px-1">Bagan, Myanmar has between 2,000 and 3,000 remaining pagodas. The city is known as the "city of four million pagodas".</p>
+                <img src="/assets/png/pagoda.png" alt="pagoda" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto" />
+                <p className="text-white font-sans text-xs px-1">Bagan, Myanmar has between 2,000 and 3,000 remaining pagodas. The city is known as the City of Four Million Pagodas.</p>
               </div>
               <div className="hero-fact3 flex items-center justify-center">
-                <img src="/assets/png/9th.png" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto" />
+                <img src="/assets/png/9th.png" alt="ancient-scroll" className="w-10 sm:w-8 md:w-12 lg:w-14 max-w-full h-auto" />
                 <p className="text-white font-sans text-xs px-1">The Bagan Dynasty, also known as the Pagan Kingdom, lasted for approximately 250 years, roughly from 1044 to 1284 CE.</p>
               </div>
             </div>
