@@ -4,7 +4,7 @@ import TimeLine from '@/components/timeline'
 import Temple from "./components/archi";
 import CultureSection from "./components/culture";
 import Gallery from "./components/gallery";
-import Map from "./components/map";
+import MapWrapper from "./components/wrapper";
 
 export default function Home() {
   return (
@@ -86,7 +86,7 @@ export default function Home() {
             <AutoShow><h1 className="font-zain text-3xl lg:text-5xl md:text-4xl sm:text-4xl text-center m-4">Locations of Famous Temples & Pagodas</h1></AutoShow>
           </div>
           <div className="w-3/4">
-            <AutoShow><Map /></AutoShow>
+            <AutoShow><MapWrapper /></AutoShow>
           </div>
         </section>
 
