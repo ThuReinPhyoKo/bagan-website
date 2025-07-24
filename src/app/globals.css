@@ -9,15 +9,6 @@
   --heavycolor: #bc8739;
 }
 
-@layer components{
-  .navigator {
-    @apply relative after:content-[''] after:absolute after:left-0 after:-bottom-1.5
-    after:bg-white after:h-[3px] after:w-full after:rounded
-    after:scale-x-0 after:transition-transform after:duration-500
-    after:origin-right after:hover:origin-left after:hover:scale-x-100
-  } 
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -28,6 +19,15 @@
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
+}
+
+@layer components{
+  .navigator {
+    @apply relative after:content-[''] after:absolute after:left-0 after:-bottom-1.5
+    after:bg-white after:h-[3px] after:w-full after:rounded
+    after:scale-x-0 after:transition-transform after:duration-500
+    after:origin-right after:hover:origin-left after:hover:scale-x-100
+  } 
 }
 
 * {

@@ -24,6 +24,22 @@ const headText = Roboto_Condensed({
 export const metadata: Metadata = {
   title: "Bagan",
   description: "Bagan Myanmar",
+  openGraph: {
+    title: "Bagan",
+    description: "A content-driven website dedicated to Bagan, the ancient city in the Mandalay Region of Myanmar. Features include an interactive timeline, an image gallery, and a dynamic temple map.",
+    url: "https://bagan-website.vercel.app",
+    siteName: "Bagan",
+    images: [
+      {
+        url: "/2.png",
+        width: 1200,
+        height: 630,
+        alt: "Bagan Myanmar",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({children, }: Readonly <{children: React.ReactNode;}>) {
