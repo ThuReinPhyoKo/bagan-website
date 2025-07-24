@@ -50,7 +50,7 @@ export default function Footer () {
                         </div>
                     </div>
                 </div>
-                <div className="absolute left-2 bottom-0 font-zain"><p className="text-lg md:tex-xl">tomryan.dev</p></div>
+                <div className="absolute left-2 bottom-0 font-zain"><p className="text-lg md:tex-xl">Ryan.dev</p></div>
             </div>
             
         </>

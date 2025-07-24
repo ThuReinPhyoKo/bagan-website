@@ -35,7 +35,7 @@ export default function Nav() {
                             <DarkMode />
                         </ul>
                     </div>
-                    <div className="logo font-semibold p-2 ml-auto">tomryan.dev</div>
+                    <div className="logo font-semibold p-2 ml-auto">Ryan.dev</div>
                 </div>
             </nav>
         </>

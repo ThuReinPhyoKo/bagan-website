@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Bagan",
     images: [
       {
-        url: "/2.png",
+        url: "https://bagan-website.vercel.app/2.png",
         width: 1200,
         height: 630,
         alt: "Bagan Myanmar",
